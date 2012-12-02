@@ -7,7 +7,7 @@ Usage
 ============
 
 Copy the folder "ELTableViewController" and "EGORefreshImages" into you project.
-The usage details ,please see TestViewController.h/.m 
+The usage details ,please see the file: TestViewController.h/.m 
 
 More Details
 ============
