@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2327722166B40AF00AD50D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327721166B40AF00AD50D5 /* UIKit.framework */; };
+		F2327724166B40AF00AD50D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327723166B40AF00AD50D5 /* Foundation.framework */; };
+		F2327726166B40AF00AD50D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327725166B40AF00AD50D5 /* CoreGraphics.framework */; };
+		F232772C166B40AF00AD50D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F232772A166B40AF00AD50D5 /* InfoPlist.strings */; };
+		F232772E166B40AF00AD50D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F232772D166B40AF00AD50D5 /* main.m */; };
+		F2327732166B40AF00AD50D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327731166B40AF00AD50D5 /* AppDelegate.m */; };
+		F2327741166B414A00AD50D5 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327740166B414A00AD50D5 /* EGORefreshTableHeaderView.m */; };
+		F2327744166B415B00AD50D5 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327743166B415B00AD50D5 /* LoadMoreTableFooterView.m */; };
+		F232774E166B41B900AD50D5 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F2327746166B41B900AD50D5 /* grayArrow.png */; };
+		F232774F166B41B900AD50D5 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2327747166B41B900AD50D5 /* grayArrow@2x.png */; };
+		F2327750166B41B900AD50D5 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F2327748166B41B900AD50D5 /* blackArrow.png */; };
+		F2327751166B41B900AD50D5 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2327749166B41B900AD50D5 /* blackArrow@2x.png */; };
+		F2327752166B41B900AD50D5 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F232774A166B41B900AD50D5 /* blueArrow.png */; };
+		F2327753166B41B900AD50D5 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F232774B166B41B900AD50D5 /* blueArrow@2x.png */; };
+		F2327754166B41B900AD50D5 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F232774C166B41B900AD50D5 /* whiteArrow.png */; };
+		F2327755166B41B900AD50D5 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F232774D166B41B900AD50D5 /* whiteArrow@2x.png */; };
+		F2327758166B422000AD50D5 /* ELTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327757166B422000AD50D5 /* ELTableViewController.m */; };
+		F232775D166B428B00AD50D5 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F232775C166B428B00AD50D5 /* IconDownloader.m */; };
+		F2327761166B42D300AD50D5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2327760166B42D300AD50D5 /* TestViewController.m */; };
+		F2327763166B458400AD50D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327762166B458400AD50D5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F232771D166B40AF00AD50D5 /* ELTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2327721166B40AF00AD50D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2327723166B40AF00AD50D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2327725166B40AF00AD50D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2327729166B40AF00AD50D5 /* ELTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELTableViewController-Info.plist"; sourceTree = "<group>"; };
+		F232772B166B40AF00AD50D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F232772D166B40AF00AD50D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F232772F166B40AF00AD50D5 /* ELTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		F2327730166B40AF00AD50D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2327731166B40AF00AD50D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F232773F166B414A00AD50D5 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		F2327740166B414A00AD50D5 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		F2327742166B415B00AD50D5 /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		F2327743166B415B00AD50D5 /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		F2327746166B41B900AD50D5 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		F2327747166B41B900AD50D5 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		F2327748166B41B900AD50D5 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		F2327749166B41B900AD50D5 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		F232774A166B41B900AD50D5 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		F232774B166B41B900AD50D5 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		F232774C166B41B900AD50D5 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		F232774D166B41B900AD50D5 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		F2327756166B422000AD50D5 /* ELTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELTableViewController.h; path = ELTableViewController/ELTableViewController.h; sourceTree = "<group>"; };
+		F2327757166B422000AD50D5 /* ELTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELTableViewController.m; path = ELTableViewController/ELTableViewController.m; sourceTree = "<group>"; };
+		F232775B166B428B00AD50D5 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		F232775C166B428B00AD50D5 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		F232775F166B42D300AD50D5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F2327760166B42D300AD50D5 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F2327762166B458400AD50D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F232771A166B40AF00AD50D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2327763166B458400AD50D5 /* QuartzCore.framework in Frameworks */,
+				F2327722166B40AF00AD50D5 /* UIKit.framework in Frameworks */,
+				F2327724166B40AF00AD50D5 /* Foundation.framework in Frameworks */,
+				F2327726166B40AF00AD50D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2327712166B40AF00AD50D5 = {
+			isa = PBXGroup;
+			children = (
+				F232773E166B40EA00AD50D5 /* ELTableViewController */,
+				F2327727166B40AF00AD50D5 /* ELTableViewControllerDemo */,
+				F2327720166B40AF00AD50D5 /* Frameworks */,
+				F232771E166B40AF00AD50D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F232771E166B40AF00AD50D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F232771D166B40AF00AD50D5 /* ELTableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2327720166B40AF00AD50D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2327762166B458400AD50D5 /* QuartzCore.framework */,
+				F2327721166B40AF00AD50D5 /* UIKit.framework */,
+				F2327723166B40AF00AD50D5 /* Foundation.framework */,
+				F2327725166B40AF00AD50D5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2327727166B40AF00AD50D5 /* ELTableViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F232775F166B42D300AD50D5 /* TestViewController.h */,
+				F2327760166B42D300AD50D5 /* TestViewController.m */,
+				F2327730166B40AF00AD50D5 /* AppDelegate.h */,
+				F2327731166B40AF00AD50D5 /* AppDelegate.m */,
+				F2327728166B40AF00AD50D5 /* Supporting Files */,
+			);
+			name = ELTableViewControllerDemo;
+			path = ELTableViewController;
+			sourceTree = "<group>";
+		};
+		F2327728166B40AF00AD50D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2327729166B40AF00AD50D5 /* ELTableViewController-Info.plist */,
+				F232772A166B40AF00AD50D5 /* InfoPlist.strings */,
+				F232772D166B40AF00AD50D5 /* main.m */,
+				F232772F166B40AF00AD50D5 /* ELTableViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F232773E166B40EA00AD50D5 /* ELTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F232775E166B429500AD50D5 /* IconDownloader */,
+				F232775A166B426100AD50D5 /* EGORefreshTableHeaderView */,
+				F2327759166B424F00AD50D5 /* LoadMoreTableFooterView */,
+				F2327756166B422000AD50D5 /* ELTableViewController.h */,
+				F2327757166B422000AD50D5 /* ELTableViewController.m */,
+				F2327745166B419900AD50D5 /* EGORefreshImages */,
+			);
+			name = ELTableViewController;
+			sourceTree = "<group>";
+		};
+		F2327745166B419900AD50D5 /* EGORefreshImages */ = {
+			isa = PBXGroup;
+			children = (
+				F2327746166B41B900AD50D5 /* grayArrow.png */,
+				F2327747166B41B900AD50D5 /* grayArrow@2x.png */,
+				F2327748166B41B900AD50D5 /* blackArrow.png */,
+				F2327749166B41B900AD50D5 /* blackArrow@2x.png */,
+				F232774A166B41B900AD50D5 /* blueArrow.png */,
+				F232774B166B41B900AD50D5 /* blueArrow@2x.png */,
+				F232774C166B41B900AD50D5 /* whiteArrow.png */,
+				F232774D166B41B900AD50D5 /* whiteArrow@2x.png */,
+			);
+			name = EGORefreshImages;
+			sourceTree = "<group>";
+		};
+		F2327759166B424F00AD50D5 /* LoadMoreTableFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				F2327742166B415B00AD50D5 /* LoadMoreTableFooterView.h */,
+				F2327743166B415B00AD50D5 /* LoadMoreTableFooterView.m */,
+			);
+			name = LoadMoreTableFooterView;
+			sourceTree = "<group>";
+		};
+		F232775A166B426100AD50D5 /* EGORefreshTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F232773F166B414A00AD50D5 /* EGORefreshTableHeaderView.h */,
+				F2327740166B414A00AD50D5 /* EGORefreshTableHeaderView.m */,
+			);
+			name = EGORefreshTableHeaderView;
+			sourceTree = "<group>";
+		};
+		F232775E166B429500AD50D5 /* IconDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				F232775B166B428B00AD50D5 /* IconDownloader.h */,
+				F232775C166B428B00AD50D5 /* IconDownloader.m */,
+			);
+			name = IconDownloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F232771C166B40AF00AD50D5 /* ELTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F232773B166B40AF00AD50D5 /* Build configuration list for PBXNativeTarget "ELTableViewController" */;
+			buildPhases = (
+				F2327719166B40AF00AD50D5 /* Sources */,
+				F232771A166B40AF00AD50D5 /* Frameworks */,
+				F232771B166B40AF00AD50D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELTableViewController;
+			productName = ELTableViewController;
+			productReference = F232771D166B40AF00AD50D5 /* ELTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2327714166B40AF00AD50D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F2327717166B40AF00AD50D5 /* Build configuration list for PBXProject "ELTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2327712166B40AF00AD50D5;
+			productRefGroup = F232771E166B40AF00AD50D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F232771C166B40AF00AD50D5 /* ELTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F232771B166B40AF00AD50D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232772C166B40AF00AD50D5 /* InfoPlist.strings in Resources */,
+				F232774E166B41B900AD50D5 /* grayArrow.png in Resources */,
+				F232774F166B41B900AD50D5 /* grayArrow@2x.png in Resources */,
+				F2327750166B41B900AD50D5 /* blackArrow.png in Resources */,
+				F2327751166B41B900AD50D5 /* blackArrow@2x.png in Resources */,
+				F2327752166B41B900AD50D5 /* blueArrow.png in Resources */,
+				F2327753166B41B900AD50D5 /* blueArrow@2x.png in Resources */,
+				F2327754166B41B900AD50D5 /* whiteArrow.png in Resources */,
+				F2327755166B41B900AD50D5 /* whiteArrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2327719166B40AF00AD50D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232772E166B40AF00AD50D5 /* main.m in Sources */,
+				F2327732166B40AF00AD50D5 /* AppDelegate.m in Sources */,
+				F2327741166B414A00AD50D5 /* EGORefreshTableHeaderView.m in Sources */,
+				F2327744166B415B00AD50D5 /* LoadMoreTableFooterView.m in Sources */,
+				F2327758166B422000AD50D5 /* ELTableViewController.m in Sources */,
+				F232775D166B428B00AD50D5 /* IconDownloader.m in Sources */,
+				F2327761166B42D300AD50D5 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F232772A166B40AF00AD50D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F232772B166B40AF00AD50D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2327739166B40AF00AD50D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F232773A166B40AF00AD50D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F232773C166B40AF00AD50D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELTableViewController/ELTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "ELTableViewController/ELTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F232773D166B40AF00AD50D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELTableViewController/ELTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "ELTableViewController/ELTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2327717166B40AF00AD50D5 /* Build configuration list for PBXProject "ELTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2327739166B40AF00AD50D5 /* Debug */,
+				F232773A166B40AF00AD50D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F232773B166B40AF00AD50D5 /* Build configuration list for PBXNativeTarget "ELTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F232773C166B40AF00AD50D5 /* Debug */,
+				F232773D166B40AF00AD50D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2327714166B40AF00AD50D5 /* Project object */;
+}
