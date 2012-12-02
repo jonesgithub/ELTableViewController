@@ -12,4 +12,4 @@ The usage details ,please see the file: TestViewController.h/.m
 More Details
 ============
 
-See http://blog.csdn.net/yanghua_kobe
+See http://blog.csdn.net/yanghua_kobe/article/details/8248991
