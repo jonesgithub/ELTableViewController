@@ -26,6 +26,7 @@
 @synthesize tableView=_tableView;
 @synthesize dataSource=_dataSource;
 @synthesize imageDownloadsInProgress=_imageDownloadsInProgress;
+@synthesize imageDownloadedInstances=_imageDownloadedInstances;
 
 @synthesize refreshHeaderView=_refreshHeaderView;
 @synthesize loadMoreFooterView=_loadMoreFooterView;
@@ -55,6 +56,7 @@
     [_refreshHeaderView release],_refreshHeaderView=nil;
     [_loadMoreFooterView release],_loadMoreFooterView=nil;
     [_imageDownloadsInProgress release],_imageDownloadsInProgress=nil;
+    [_imageDownloadedInstances release],_imageDownloadedInstances=nil;
     
     [_dataSource release],_dataSource=nil;
     
