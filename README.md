@@ -19,3 +19,12 @@ Or see [My another project:FastEasyBlog](https://github.com/yanghua/FastEasyBlog
 ##More Details
 
 See [My Blog](http://blog.csdn.net/yanghua_kobe/article/details/8248991)
+
+#Contact
+
+any problem, let me know:
+
+1. [yanghua1127@gmail.com](yanghua1127@gmail.com)
+2. [http://blog.csdn.net/yanghua_kobe](http://blog.csdn.net/yanghua_kobe)
+
+enjoy and have fun!
