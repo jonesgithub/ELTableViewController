@@ -1,15 +1,21 @@
-ELTableViewController
-============
+#ELTableViewController
 
 A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async
 
-Usage
-============
+##Dependence
+ * EGORefreshTableHeaderView
+ * LoadMoreTableFooterView
+ * IconDownloader
+
+##Usage
 
 Copy the folder "ELTableViewController" and "EGORefreshImages" into you project.
-The usage details ,please see the file: TestViewController.h/.m 
+The usage details.
 
-More Details
-============
+please see the file: TestViewController.h/.m 
 
-See http://blog.csdn.net/yanghua_kobe/article/details/8248991
+Or see [My another project:FastEasyBlog](https://github.com/yanghua/FastEasyBlog-iOS-app)
+
+##More Details
+
+See [My Blog](http://blog.csdn.net/yanghua_kobe/article/details/8248991)
