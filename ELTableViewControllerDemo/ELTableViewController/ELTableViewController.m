@@ -284,6 +284,20 @@
     }
 }
 
+#pragma mark - utility method -
+- (void) unselectCurrentRow{
+    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow]
+                                  animated:YES];
+}
+
+
+- (void)removeExtraCellLine{
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor clearColor];
+    [self.tableView setTableFooterView:view];
+    [view release];
+}
+
 
 
 @end

@@ -81,6 +81,14 @@ andLoadMoreFooterViewEnabled:(BOOL)enableLoadMoreFooterView;
 
 - (void)initBlocks;
 
+/**
+ *	@brief	delete extra cell line when data can not fill a screen
+ *          called by yourself business code after calling method:
+ *          [self.tableView reloadData];
+ *
+ */
+- (void)removeExtraCellLine;
+
 @end
 
 
