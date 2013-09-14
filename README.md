@@ -7,7 +7,7 @@ A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTa
 
 ### cocoapods
 
-To be sure that you have installed **cocoapods!!!**
+Be sure that you have installed **cocoapods!!!**
 
 enter your project's root dir and add this line to your podfile
 
@@ -25,7 +25,7 @@ then do install:
 ### manually
 
 
-Copy the folder ***ELTableViewController*** and bundle ***ELTableViewController.bundle*** into your project.
+Copy the folder ***ELTableViewController*** and the bundle ***ELTableViewController.bundle*** into your project.
 
 ## Update log
 * 2013-09-13 : add some utility methods
