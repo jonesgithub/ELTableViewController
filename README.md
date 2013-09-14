@@ -1,4 +1,4 @@
-#ELTableViewController
+# Overview
 
 A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async
 
@@ -9,18 +9,39 @@ A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTa
 
 ##Usage
 
-Copy the folder "ELTableViewController" and "EGORefreshImages" into you project.
-The usage details.
+### cocoapod
 
-please see the file: TestViewController.h/.m 
+```
+pod install ELTableViewController
+```
+
+### manually
+
+
+Copy the folder "ELTableViewController" and "EGORefreshImages" into you project.
+
 
 Or see [My another project:FastEasyBlog](https://github.com/yanghua/FastEasyBlog-iOS-app)
 
-##More Details
+## Update log
+* 2013-09-13 : add some utility methods
 
-See [My Blog](http://blog.csdn.net/yanghua_kobe/article/details/8248991)
+## Apps
+* [FastEasyBlog](https://github.com/yanghua/FastEasyBlog-iOS-app)
+* [iBus](https://github.com/yanghua/iBus)
 
-#Contact
+##Functions list
+* non-UITableViewDataSource
+* non-UITableViewDelegate
+* automatic async-image download for each cell (optional)
+* refresh function (optional)
+* load more function (optional)
+* some utility methods
+
+
+#Contact & More Details
+
+desc:see [My Blog](http://blog.csdn.net/yanghua_kobe/article/details/8248991)
 
 any problem, let me know:
 
