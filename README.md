@@ -2,31 +2,37 @@
 
 A Encapsulation to the UITableView with EGORefreshTableHeaderView and LoadMoreTableFooterView and download image async
 
-##Dependence
- * EGORefreshTableHeaderView
- * LoadMoreTableFooterView
- * IconDownloader
 
 ##Usage
 
-### cocoapod
+### cocoapods
+
+To be sure that you have installed **cocoapods!!!**
+
+enter your project's root dir and add this line to your podfile
 
 ```
-pod install ELTableViewController
+pod 'ELTableViewController'
 ```
+
+then do install:
+
+```
+[sudo] pod install
+```
+
 
 ### manually
 
 
-Copy the folder "ELTableViewController" and "EGORefreshImages" into you project.
-
-
-Or see [My another project:FastEasyBlog](https://github.com/yanghua/FastEasyBlog-iOS-app)
+Copy the folder ***ELTableViewController*** and bundle ***ELTableViewController.bundle*** into your project.
 
 ## Update log
 * 2013-09-13 : add some utility methods
 
-## Apps
+## Apps (benefit from ELTableViewController)
+>weibo list and many tableview controllers based on it.
+
 * [FastEasyBlog](https://github.com/yanghua/FastEasyBlog-iOS-app)
 * [iBus](https://github.com/yanghua/iBus)
 
