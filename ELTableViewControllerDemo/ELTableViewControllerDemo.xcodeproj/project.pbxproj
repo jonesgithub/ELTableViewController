@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77BF7DCC17E461720085043A /* ELTableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELTableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		F232776F166B5ECB00AD50D5 /* ELTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2327773166B5ECB00AD50D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2327775166B5ECB00AD50D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,7 +38,6 @@
 		F232777B166B5ECB00AD50D5 /* ELTableViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELTableViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
 		F232777D166B5ECB00AD50D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F232777F166B5ECB00AD50D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2327781166B5ECB00AD50D5 /* ELTableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELTableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		F2327782166B5ECB00AD50D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2327783166B5ECB00AD50D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F2327795166B60F200AD50D5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
@@ -120,10 +120,10 @@
 		F232777A166B5ECB00AD50D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				77BF7DCC17E461720085043A /* ELTableViewControllerDemo-Prefix.pch */,
 				F232777B166B5ECB00AD50D5 /* ELTableViewControllerDemo-Info.plist */,
 				F232777C166B5ECB00AD50D5 /* InfoPlist.strings */,
 				F232777F166B5ECB00AD50D5 /* main.m */,
-				F2327781166B5ECB00AD50D5 /* ELTableViewControllerDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -336,6 +336,7 @@
 				F232778F166B5ECB00AD50D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
