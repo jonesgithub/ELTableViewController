@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77BF7DCE17E462AC0085043A /* ELTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77BF7DCD17E462AC0085043A /* ELTableViewController.bundle */; };
 		F2327774166B5ECB00AD50D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327773166B5ECB00AD50D5 /* UIKit.framework */; };
 		F2327776166B5ECB00AD50D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327775166B5ECB00AD50D5 /* Foundation.framework */; };
 		F2327778166B5ECB00AD50D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2327777166B5ECB00AD50D5 /* CoreGraphics.framework */; };
@@ -19,18 +20,11 @@
 		F23277A3166B61F500AD50D5 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F232779E166B61F500AD50D5 /* IconDownloader.m */; };
 		F23277A4166B61F500AD50D5 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F23277A0166B61F500AD50D5 /* LoadMoreTableFooterView.m */; };
 		F23277A6166B621F00AD50D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23277A5166B621F00AD50D5 /* QuartzCore.framework */; };
-		F23277B0166B62EA00AD50D5 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277A8166B62EA00AD50D5 /* blackArrow.png */; };
-		F23277B1166B62EA00AD50D5 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277A9166B62EA00AD50D5 /* blackArrow@2x.png */; };
-		F23277B2166B62EA00AD50D5 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277AA166B62EA00AD50D5 /* blueArrow.png */; };
-		F23277B3166B62EA00AD50D5 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277AB166B62EA00AD50D5 /* blueArrow@2x.png */; };
-		F23277B4166B62EA00AD50D5 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277AC166B62EA00AD50D5 /* grayArrow.png */; };
-		F23277B5166B62EA00AD50D5 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277AD166B62EA00AD50D5 /* grayArrow@2x.png */; };
-		F23277B6166B62EA00AD50D5 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277AE166B62EA00AD50D5 /* whiteArrow.png */; };
-		F23277B7166B62EA00AD50D5 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F23277AF166B62EA00AD50D5 /* whiteArrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77BF7DCC17E461720085043A /* ELTableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELTableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		77BF7DCD17E462AC0085043A /* ELTableViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ELTableViewController.bundle; sourceTree = "<group>"; };
 		F232776F166B5ECB00AD50D5 /* ELTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2327773166B5ECB00AD50D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2327775166B5ECB00AD50D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,14 +45,6 @@
 		F232779F166B61F500AD50D5 /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadMoreTableFooterView.h; path = ELTableViewController/LoadMoreTableFooterView.h; sourceTree = "<group>"; };
 		F23277A0166B61F500AD50D5 /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadMoreTableFooterView.m; path = ELTableViewController/LoadMoreTableFooterView.m; sourceTree = "<group>"; };
 		F23277A5166B621F00AD50D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F23277A8166B62EA00AD50D5 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = EGORefreshImages/blackArrow.png; sourceTree = "<group>"; };
-		F23277A9166B62EA00AD50D5 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "EGORefreshImages/blackArrow@2x.png"; sourceTree = "<group>"; };
-		F23277AA166B62EA00AD50D5 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = EGORefreshImages/blueArrow.png; sourceTree = "<group>"; };
-		F23277AB166B62EA00AD50D5 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "EGORefreshImages/blueArrow@2x.png"; sourceTree = "<group>"; };
-		F23277AC166B62EA00AD50D5 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayArrow.png; path = EGORefreshImages/grayArrow.png; sourceTree = "<group>"; };
-		F23277AD166B62EA00AD50D5 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grayArrow@2x.png"; path = "EGORefreshImages/grayArrow@2x.png"; sourceTree = "<group>"; };
-		F23277AE166B62EA00AD50D5 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteArrow.png; path = EGORefreshImages/whiteArrow.png; sourceTree = "<group>"; };
-		F23277AF166B62EA00AD50D5 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteArrow@2x.png"; path = "EGORefreshImages/whiteArrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +117,7 @@
 		F2327798166B61D300AD50D5 /* ELTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F23277A7166B62CE00AD50D5 /* EGORefreshImages */,
+				77BF7DCD17E462AC0085043A /* ELTableViewController.bundle */,
 				F2327799166B61F500AD50D5 /* EGORefreshTableHeaderView.h */,
 				F232779A166B61F500AD50D5 /* EGORefreshTableHeaderView.m */,
 				F232779B166B61F500AD50D5 /* ELTableViewController.h */,
@@ -142,21 +128,6 @@
 				F23277A0166B61F500AD50D5 /* LoadMoreTableFooterView.m */,
 			);
 			name = ELTableViewController;
-			sourceTree = "<group>";
-		};
-		F23277A7166B62CE00AD50D5 /* EGORefreshImages */ = {
-			isa = PBXGroup;
-			children = (
-				F23277A8166B62EA00AD50D5 /* blackArrow.png */,
-				F23277A9166B62EA00AD50D5 /* blackArrow@2x.png */,
-				F23277AA166B62EA00AD50D5 /* blueArrow.png */,
-				F23277AB166B62EA00AD50D5 /* blueArrow@2x.png */,
-				F23277AC166B62EA00AD50D5 /* grayArrow.png */,
-				F23277AD166B62EA00AD50D5 /* grayArrow@2x.png */,
-				F23277AE166B62EA00AD50D5 /* whiteArrow.png */,
-				F23277AF166B62EA00AD50D5 /* whiteArrow@2x.png */,
-			);
-			name = EGORefreshImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,14 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F232777E166B5ECB00AD50D5 /* InfoPlist.strings in Resources */,
-				F23277B0166B62EA00AD50D5 /* blackArrow.png in Resources */,
-				F23277B1166B62EA00AD50D5 /* blackArrow@2x.png in Resources */,
-				F23277B2166B62EA00AD50D5 /* blueArrow.png in Resources */,
-				F23277B3166B62EA00AD50D5 /* blueArrow@2x.png in Resources */,
-				F23277B4166B62EA00AD50D5 /* grayArrow.png in Resources */,
-				F23277B5166B62EA00AD50D5 /* grayArrow@2x.png in Resources */,
-				F23277B6166B62EA00AD50D5 /* whiteArrow.png in Resources */,
-				F23277B7166B62EA00AD50D5 /* whiteArrow@2x.png in Resources */,
+				77BF7DCE17E462AC0085043A /* ELTableViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
